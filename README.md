@@ -1,0 +1,5 @@
+Introduction
+
+Image retrieval is a central problem in computer vision, relevant to many applications. The problem is usually posed as follows: given a query image, can you find similar images in a large database? This is especially important for query images containing landmarks, which accounts for a large portion of what people like to photograph.
+
+In this competition, you are asked to develop models that can efficiently retrieve landmark images from a large database. The training set is available in the train/ folder, with corresponding landmark labels in train.csv. The query images are listed in the test/ folder, while the "index" images from which you are retrieving are listed in index/. Each image has a unique id. Since there are a large number of images, each image is placed within three subfolders according to the first three characters of the image id (i.e. image abcdef.jpg is placed in a/b/c/abcdef.jpg).
